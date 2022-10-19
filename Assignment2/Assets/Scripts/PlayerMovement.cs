@@ -8,10 +8,12 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 10f;
     private Rigidbody2D myRigidBody;
     private Vector2 change;
+    private Animator Animator;
 
     // Start is called before the first frame update
     void Start()
     {
+        
         myRigidBody = GetComponent<Rigidbody2D>();
     }
 
